@@ -1,0 +1,5 @@
+# List of folders & file names/extensions to be ignored by the git repository.
+
+*.xlsx
+*.csv
+*.log
