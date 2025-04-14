@@ -2,7 +2,9 @@
 This repository is home to the python script that will compare two check registers (i.e a personal register to an export from the bank).  
 
 ## Description 
-This script will compare two checkbook registers: 1) A personal register and 2) one exported from the bank.  The script will work to identify where differences lie between the two registers.  
+This script will compare two checkbook registers: 1) A personal register and 2) one exported from the bank.  The script will work to identify where differences lie between the two registers.  <br>
+
+**For either register, we cannot have headers. Also, delete extra columns or rows of data.  For example, if there's a note at the bottom of the personal register, these additional rows at the bottom will break the script**
 
 The location (column positions) is hardcoded.  It is assumed that, for the personal register, the format is <br>
 **ITEM NUMBER | TYPE | MONTH | DAY | YEAR | DESCRIPTION | CLEARED | AMOUNT | BALANCE** <br>
