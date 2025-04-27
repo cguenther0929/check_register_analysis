@@ -14,6 +14,8 @@ while the information exported from the bank is assumed to be in the following f
 **DATE | TYPE | DESCRIPTION | STATUS | AMOUNT** <br>
 Therefore, for the bank's export, the amount column will be column number five  (the opnxyl module starts at one, not zero)
 
+**For both, the headers shall be deleted**
+
 
 ## Running
 Be sure that each register excel workbook contains only one sheet

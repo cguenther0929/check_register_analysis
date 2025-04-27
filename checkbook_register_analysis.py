@@ -10,6 +10,7 @@ TODO: Fill out this doc string
 TODO: This algorithm needs to be adjusted
 		so that only the current year is considered
 		when parsing the personal register.
+TODO:  Need to look for duplicates in transactions
 """
 import sys
 import re
